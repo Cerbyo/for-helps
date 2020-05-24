@@ -1,0 +1,12 @@
+//newArr.sort((a,b) =>a===b?0:b>a?-1 :1)
+
+  newArr.sort(function(a,b){
+    if(a===b){
+      return 0
+      } else if(b>a){
+        return -1
+        } else{
+        return 1
+        }
+      })
+
